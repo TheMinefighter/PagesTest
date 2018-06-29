@@ -302,7 +302,7 @@ header {
 }
 
 section {
-  width:990px;
+  width:590px;
   position:relative;
   border-radius: 3px;
   background: #313335;
@@ -658,5 +658,19 @@ footer {
     left:auto;
     bottom:auto;
     width:auto;
+  }
+}
+@media print, screen and (min-width: 1600px) {
+ section {
+   width: 1007px;
+ }
+  nav {
+    margin-left: -780px;
+  }
+  footer {
+    margin-left: -780px;
+  }
+  .wrapper {
+    width: 950px;
   }
 }
