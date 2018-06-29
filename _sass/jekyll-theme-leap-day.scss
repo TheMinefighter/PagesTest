@@ -229,6 +229,7 @@ header {
   border: 1px solid #418c10;
   .button {
     background: linear-gradient(#3cb900, #33A321);
+//    background: linear-gradient(#3cb900, #33A321);
     border-radius: 2px;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
     padding: 10px 12px;
@@ -256,7 +257,7 @@ header {
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    background-color: #5cbc1e;
+   // background-color: #5cbc1e;
     
     margin-left:-325px;
   }
@@ -285,9 +286,9 @@ header {
     li {
       display:inline;
 
-      a.button {
-        background: linear-gradient(#3cb900, #33A321);
-      }
+      //a.button {
+      //  background: linear-gradient(#3cb900, #33A321);
+      //}
     }
   }
 
