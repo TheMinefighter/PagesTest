@@ -47,6 +47,9 @@
         <ul></ul>
     </nav>
     <section style="height: auto;"><!--width: 1000px;-->
+        {% if site.github.latest_release %}
+        <p> There is a release </p>
+        {% endif %}
         {{ content }}
 
     </section>
