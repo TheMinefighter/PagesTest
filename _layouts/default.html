@@ -50,6 +50,12 @@
         {% if site.github.latest_release %}
         <p> There is a release </p>
         {% endif %}
+        {% if site.github.releases[0] %}
+        <p> There is some release </p>
+        {% endif %}
+        {% unless site.github.releases[0] %}
+        <p> There is some release </p>
+        {% endunless %}
         {{ content }}
 
     </section>
