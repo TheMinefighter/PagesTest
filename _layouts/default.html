@@ -29,7 +29,7 @@
     {% unless site.github.private %}
     <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
     {% endunless %}
-    {% if site.github.latest_release %}
+    {% if site.github.releases[0] %}
       <div class="downloads">
         <span>Downloads:</span>
         <ul>
@@ -51,7 +51,7 @@
         <p> There is a release </p>
         {% endif %}
         {% if site.github.releases[0] %}
-        <p> There is some release </p>
+        <a href="{{ site.github.zip_url }}"> There is some release </a>
         {% endif %}
         {% unless site.github.releases[0] %}
         <p> There is some release </p>
